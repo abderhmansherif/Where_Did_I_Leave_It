@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <File Path="README.md" />
     <Project Path="Where_Did_I_Leave_It.API/Where_Did_I_Leave_It.API.csproj" Id="cca11447-4217-4b9c-95fa-1aec51c8864c" />
     <Project Path="Where_Did_I_Leave_It.Application/Where_Did_I_Leave_It.Application.csproj" />
     <Project Path="Where_Did_I_Leave_It.Domain/Where_Did_I_Leave_It.Domain.csproj" />
