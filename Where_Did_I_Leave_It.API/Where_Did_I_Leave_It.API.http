@@ -1,0 +1,6 @@
+@Where_Did_I_Leave_It.API_HostAddress = http://localhost:5174
+
+GET {{Where_Did_I_Leave_It.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

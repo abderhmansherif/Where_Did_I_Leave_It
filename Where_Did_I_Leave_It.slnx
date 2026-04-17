@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Where_Did_I_Leave_It.API/Where_Did_I_Leave_It.API.csproj" Id="cca11447-4217-4b9c-95fa-1aec51c8864c" />
+    <Project Path="Where_Did_I_Leave_It.Application/Where_Did_I_Leave_It.Application.csproj" />
+    <Project Path="Where_Did_I_Leave_It.Domain/Where_Did_I_Leave_It.Domain.csproj" />
+    <Project Path="Where_Did_I_Leave_It.Infrastrcuture/Where_Did_I_Leave_It.Infrastrcuture.csproj" Id="b2b4e053-ba3c-47ce-b299-eefe37d20b69" />
+  </Folder>
+</Solution>
