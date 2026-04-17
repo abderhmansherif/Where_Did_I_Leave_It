@@ -25,7 +25,7 @@ namespace Where_Did_I_Leave_It.Domain.Entities
         }
 
         private void AddHistory(ChangeType changeType)
-            => History.Add(new ItemHistory.ItemHistory(Guid.NewGuid(), this.Name, this.Id, this.Location, this.Note, changeType));
+            => History.Add(new ItemHistory(Guid.NewGuid(), this.Name, this.Id, this.Location, this.Note, changeType));
 
         public void EditLocation(string newLocation)
         {

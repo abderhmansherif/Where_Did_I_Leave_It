@@ -9,7 +9,7 @@ namespace Where_Did_I_Leave_It.Domain.Factories
     {
         public Item Create(string itemName, string location, string note)
         {
-            return new Item.Item(Guid.NewGuid(), itemName, location, note);
+            return new Item(Guid.NewGuid(), itemName, location, note);
         }
     }
 }
