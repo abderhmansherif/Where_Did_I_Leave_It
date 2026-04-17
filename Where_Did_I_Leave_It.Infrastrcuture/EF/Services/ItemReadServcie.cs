@@ -2,7 +2,7 @@
 using Where_Did_I_Leave_It.Application.DTOs;
 using Where_Did_I_Leave_It.Application.Queries;
 using Where_Did_I_Leave_It.Application.Services;
-using Where_Did_I_Leave_It.Domain.Item;
+using Where_Did_I_Leave_It.Domain.Entities;
 using Where_Did_I_Leave_It.Infrastrcuture.EF.Contexts;
 
 namespace Where_Did_I_Leave_It.Infrastrcuture.EF.Services

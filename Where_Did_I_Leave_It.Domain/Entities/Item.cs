@@ -1,7 +1,7 @@
 ﻿using Where_Did_I_Leave_It.Domain.Enum;
 using Where_Did_I_Leave_It.Domain.Exceptions;
 
-namespace Where_Did_I_Leave_It.Domain.Item
+namespace Where_Did_I_Leave_It.Domain.Entities
 {
     public class Item
     {
@@ -10,7 +10,7 @@ namespace Where_Did_I_Leave_It.Domain.Item
         public string Location { get; private set; }
         public string Note { get; private set; }
         public DateTime LastSeenDate { get; private set; }
-        public List<ItemHistory.ItemHistory> History { get; private set; } = new();
+        public List<ItemHistory> History { get; private set; } = new();
 
         private Item() { }
         internal Item(Guid id, string name, string location, string note)

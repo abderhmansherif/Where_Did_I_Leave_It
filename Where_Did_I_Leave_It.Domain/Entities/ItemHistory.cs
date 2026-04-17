@@ -1,6 +1,6 @@
 ﻿using Where_Did_I_Leave_It.Domain.Enum;
 
-namespace Where_Did_I_Leave_It.Domain.ItemHistory
+namespace Where_Did_I_Leave_It.Domain.Entities
 {
     public class ItemHistory
     {
@@ -12,7 +12,7 @@ namespace Where_Did_I_Leave_It.Domain.ItemHistory
         public DateTime CreatedAt { get; private set; }
         public ChangeType ChangeType { get; private set; }
 
-        public Item.Item? Item { get; private set; }
+        public Item? Item { get; private set; }
         public ItemHistory(Guid id, string name, Guid itemId, string location, string note, ChangeType changeType)
         {
             Id = id;

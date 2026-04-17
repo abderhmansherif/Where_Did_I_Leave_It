@@ -1,13 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Where_Did_I_Leave_It.Domain.Entities;
 using Where_Did_I_Leave_It.Domain.Enum;
-using Where_Did_I_Leave_It.Domain.Item;
-using Where_Did_I_Leave_It.Domain.ItemHistory;
 
 namespace Where_Did_I_Leave_It.Infrastrcuture.EF.Config
 {
-    public class ItemConfiguration : IEntityTypeConfiguration<Item>, IEntityTypeConfiguration<Domain.ItemHistory.ItemHistory>
+    public class ItemConfiguration : IEntityTypeConfiguration<Item>, IEntityTypeConfiguration<ItemHistory>
     {
         public void Configure(EntityTypeBuilder<Item> builder)
         {

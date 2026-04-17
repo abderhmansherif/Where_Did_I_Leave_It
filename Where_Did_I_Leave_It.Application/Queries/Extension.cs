@@ -1,6 +1,5 @@
 ﻿using Where_Did_I_Leave_It.Application.DTOs;
-using Where_Did_I_Leave_It.Domain.Item;
-using Where_Did_I_Leave_It.Domain.ItemHistory;
+using Where_Did_I_Leave_It.Domain.Entities;
 
 namespace Where_Did_I_Leave_It.Application.Queries
 {

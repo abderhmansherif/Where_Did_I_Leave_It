@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Where_Did_I_Leave_It.Domain.Item;
+using Where_Did_I_Leave_It.Domain.Entities;
 using Where_Did_I_Leave_It.Domain.Repositories;
 using Where_Did_I_Leave_It.Infrastrcuture.EF.Contexts;
 
